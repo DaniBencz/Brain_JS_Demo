@@ -1,3 +1,4 @@
-import learnXOR from "./xor";
+import learnXOR from "./xor.js";
 
-console.log(learnXOR());
+console.log('XOR result:', await learnXOR());
+
