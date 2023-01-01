@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
     "module": "esnext",
     "moduleResolution": "node",
     "outDir": "dist",
@@ -9,10 +8,12 @@
     "skipLibCheck": true,
     "strict": true,
     "sourceMap": true,
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "allowJs": true,
+    "declaration": true
   },
   "exclude": ["dist", "node_modules"],
-  "include": ["src"],
+  "include": ["src", "src/XOR/XOR_net.d.ts"],
   "ts-node": {
     "esm": true
   }

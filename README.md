@@ -1,8 +1,9 @@
-## Brain.js Demo App
+## Brain.js Demo App in TypeScript
 
 **install:**
 - `npm ci`
 
-**run*:*
-- `npm run dev`
-- or `npm run build && npm start`
+**usage**:
+- train the network with the respective `npm run train{functionality}` script
+- invoke the network in `index.ts` and run `npm run dev`
+- or `npm run build{functionality} && npm start`
