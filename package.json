@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "trainXOR": "ts-node src/XOR/trainXOR.ts",
+    "trainMap": "ts-node src/Map/trainMap.ts",
     "dev": "ts-node src/index.ts",
     "buildXOR": "tsc && node dist/XOR/trainXOR.js",
     "start": "node dist/index.js"
