@@ -14,8 +14,7 @@ const useMap = (data: { [k: string]: number; }) => {
     const net = new NeuralNetwork();
     net.fromJSON(trainedNet);
 
-    const output = net.run(data);
-    return output;
+    return net.run(data);
 };
 
 export default useMap;
