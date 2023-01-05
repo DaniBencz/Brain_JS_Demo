@@ -26,6 +26,5 @@ const __dirname = path.dirname(__filename);
 const topology = utilities.toSVG(net);
 const drawTopology = writeFile(`${__dirname}/map_topology.svg`, topology);
 
-const saveNet = writeFile(`${__dirname}/map_net.js`, `export default ${net.toFunction().toString()};`);
-
+const saveNet = writeFile(`${__dirname}/map_net.json`, JSON.stringify(net.toJSON()));
 await Promise.all([drawTopology, saveNet]);
