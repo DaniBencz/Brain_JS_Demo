@@ -13,7 +13,7 @@
     "declaration": true
   },
   "exclude": ["dist", "node_modules"],
-  "include": ["src", "src/XOR/XOrNet.d.ts"],
+  "include": ["src", "src/01XOR/XOrNet.d.ts"],
   "ts-node": {
     "esm": true
   }
